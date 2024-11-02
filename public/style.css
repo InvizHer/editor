@@ -1,0 +1,74 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Editor Container */
+.editor-container {
+    width: 80%;
+    max-width: 800px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+/* Toolbar Buttons */
+.editor-toolbar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.editor-toolbar button {
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.editor-toolbar button:hover {
+    background-color: #0056b3;
+}
+
+/* Editor Area */
+.editor-area {
+    border: 1px solid #ddd;
+    padding: 15px;
+    min-height: 200px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    overflow-y: auto;
+}
+
+/* Save Button */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #218838;
+}
